@@ -158,7 +158,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_2?name=Diman&age=37&salary=500",
+					"raw": "http://162.55.220.72:5005/object_info_2?name=Diman&age=37&salary=1",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -181,7 +181,7 @@
 						},
 						{
 							"key": "salary",
-							"value": "500"
+							"value": "1"
 						}
 					]
 				}
@@ -310,7 +310,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2?name=Diman&age=37&salary=500",
+					"raw": "http://162.55.220.72:5005/user_info_2",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -325,15 +325,18 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Diman"
+							"value": "Diman",
+							"disabled": true
 						},
 						{
 							"key": "age",
-							"value": "37"
+							"value": "37",
+							"disabled": true
 						},
 						{
 							"key": "salary",
-							"value": "500"
+							"value": "500",
+							"disabled": true
 						}
 					]
 				}
